@@ -100,5 +100,9 @@ namespace Buoi3
         {
             Console.WriteLine($"{hoVaTen} {soBaoDanh} {namSinh} {diemLT} {diemTH}");
         }
+
+        ~CThiSinh {
+            Console.WriteLine("Giải phóng bộ nhớ");
+        }
     }
 }
